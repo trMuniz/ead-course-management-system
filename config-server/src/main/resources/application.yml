@@ -1,3 +1,13 @@
+server:
+    port: 8888
+
+logging:
+  level:
+    root: DEBUG
+    org.springframework.web: DEBUG
+    org.springframework.boot: DEBUG
+    org.springframework.cloud: DEBUG
+
 spring:
   cloud:
     config:
@@ -6,3 +16,9 @@ spring:
           uri: https://github.com/trMuniz/ead-course-management-system
           search-paths: config-repo
           default-label: development
+  security:
+    user:
+      name: user
+      password: password
+
+
