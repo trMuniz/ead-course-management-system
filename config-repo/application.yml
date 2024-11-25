@@ -1,0 +1,11 @@
+server:
+  port: 0  # Porta dinâmica para serviços individuais
+
+spring:
+  application:
+    name: global-config
+
+logging:
+  level:
+    root: INFO
+    com.ead: DEBUG
