@@ -11,6 +11,7 @@
 	<groupId>dev.thiagomuniz</groupId>
 	<artifactId>ead-course-management-system</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>EAD Course Management System</name>
 	<description>Course Management System using Java Spring Boot and Microservices.</description>
 	<url/>
