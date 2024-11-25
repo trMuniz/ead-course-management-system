@@ -1,6 +1,7 @@
 # Course Service
 
-The **Course Service** is responsible for managing courses in the EAD Course Management System. It allows for the creation, updating, and deletion of courses, as well as course data retrieval.
+The **Course Service** is responsible for managing courses in the EAD Course Management System. It allows for the
+creation, updating, and deletion of courses, as well as course data retrieval.
 
 ## Features
 
@@ -25,15 +26,15 @@ To run this service locally, follow these steps:
     ```bash
     mvn spring-boot:run
     ```
-   
+
 3. The service will be accessible at `http://localhost:8080`.
 
 API Endpoints
 
 - `POST /courses` - Create a new course
 
-  •	Create a new course.
-  •	Request Body:
+  • Create a new course.
+  • Request Body:
 
     ```json
     {
@@ -43,8 +44,8 @@ API Endpoints
         "price": 100.00
     }
     ```
-    •	Response Body:
-    
+  • Response Body:
+
    ```json
      {
          "id": 1,
@@ -56,10 +57,10 @@ API Endpoints
    ```
 
 - `PUT /courses/{courseId}` - Update course details
-    
+
       •	Update course details.
       •	Request Body:
-    
+
      ```json
      {
           "name": "Updated Course Name",
@@ -68,8 +69,8 @@ API Endpoints
           "price": 200.00
      }
      ```
-     •	Response Body:
-     
+  • Response Body:
+
     ```json
     {
           "id": 1,
@@ -82,9 +83,9 @@ API Endpoints
 
 - `DELETE /courses/{courseId}` - Delete a course
 
-    •	Delete a course by ID.
-    •	Response Body:
-    
+  • Delete a course by ID.
+  • Response Body:
+
      ```json
      {
          "message": "Course deleted successfully"
@@ -93,9 +94,9 @@ API Endpoints
 
 - `GET /courses/{courseId}` - Retrieve course information
 
-    •	Retrieve course information by ID.
-    •	Response Body:
-    
+  • Retrieve course information by ID.
+  • Response Body:
+
      ```json
      {
          "id": 1,
@@ -108,9 +109,9 @@ API Endpoints
 
 - `GET /courses` - List all courses
 
-    •	List all courses.
-    •	Response Body:
-    
+  • List all courses.
+  • Response Body:
+
      ```json
      [
          {
@@ -147,4 +148,5 @@ The Course Service API documentation is available at `http://localhost:8080/swag
 - Lombok
 - MapStruct
 - GitHub Actions
+
 ```

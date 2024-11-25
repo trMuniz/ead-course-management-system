@@ -1,6 +1,7 @@
 # Discovery Server
 
-The **Discovery Server** is responsible for service registration and discovery in the EAD Course Management System. It allows microservices to dynamically locate and communicate with each other without hardcoded service URLs.
+The **Discovery Server** is responsible for service registration and discovery in the EAD Course Management System. It
+allows microservices to dynamically locate and communicate with each other without hardcoded service URLs.
 
 ## Features
 
@@ -17,22 +18,24 @@ To run the Discovery Server locally, follow these steps:
    git clone https://github.com/yourusername/ead-course-management-system.git
    cd discovery-server
     ```
-   
+
 2. Run the Discovery Server using Maven:
 
     ```bash
     ./mvnw spring-boot:run
     ```
-   
+
 3. The Discovery Server will start on port `8761`.
 
 ## Testing the Application
 
-To test the Discovery Server, open your browser and visit `http://localhost:8761`. You will see the Eureka dashboard, which shows the list of registered services.
+To test the Discovery Server, open your browser and visit `http://localhost:8761`. You will see the Eureka dashboard,
+which shows the list of registered services.
 
 ## Configuration
 
-1. The Discovery Server configuration is located in the `application.yml` file. You can change the server port, service name, and other properties in this file.
+1. The Discovery Server configuration is located in the `application.yml` file. You can change the server port, service
+   name, and other properties in this file.
 
    ```yaml
    eureka:

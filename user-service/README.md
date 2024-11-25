@@ -1,6 +1,7 @@
 # User Service
 
-The **User Service** is responsible for managing user data in the EAD Course Management System. It handles user registration, authentication, and user profile management.
+The **User Service** is responsible for managing user data in the EAD Course Management System. It handles user
+registration, authentication, and user profile management.
 
 ## Features
 
@@ -17,13 +18,13 @@ To run this service locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/ead-course-management-system.git
    cd user-service
-   
-2.	Run the service with Maven:
 
-   ```bash
-   mvn spring-boot:run
-   ```
-   The service will start on port `8080`.
+2. Run the service with Maven:
+
+```bash
+mvn spring-boot:run
+```
+The service will start on port `8080`.
 
 3. Access the service at http://localhost:8080.
 
@@ -31,16 +32,16 @@ API Endpoints
 
 - `POST /api/users/register` - Register a new user
 
-	•	Register a new user.
-	•	Request Body:
-        {
-            "username": "johndoe",
-            "email": ",
-            "password": "password"
-        }
+  • Register a new user.
+  • Request Body:
+  {
+  "username": "johndoe",
+  "email": ",
+  "password": "password"
+  }
 
 - `POST /api/users/login` - Authenticate a user and generate a JWT token
-    
+
         •	Authenticate a user and generate a JWT token.
         •	Request Body:
             {
@@ -49,7 +50,7 @@ API Endpoints
             }
 
 - `GET /api/users/{username}` - Retrieve the profile of a user
-        
+
             •	Retrieve the profile of a user.
             •	Path Variable: username
 
@@ -73,14 +74,14 @@ API Endpoints
                 }
 
 - `POST /api/users/{username}/password/reset` - Reset the password of a user
-    
+
                 •	Reset the password of a user.
                 •	Path Variable: username
                 •	Request Body:
                     {
                         "email": "
                     }
-      
+
 ```
 
 ## Dependencies
@@ -116,6 +117,7 @@ The service can be configured using the following environment variables:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```   
+
 ```
 
 ## Contributing
@@ -136,4 +138,5 @@ Please adhere to this project's `code of conduct`.
 - Inspiration
 - etc
 ```   
+
 ```
