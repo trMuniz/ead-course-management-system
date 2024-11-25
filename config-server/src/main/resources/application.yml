@@ -6,6 +6,3 @@ spring:
           uri: https://github.com/trMuniz/ead-course-management-system
           search-paths: config-repo
           default-label: development
-  security:
-    basic:
-      enabled: false

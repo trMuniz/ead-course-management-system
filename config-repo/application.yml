@@ -1,17 +1,6 @@
 server:
-  port: 0  # Porta dinâmica para serviços individuais
+  port: 8888
 
 spring:
   application:
-    name: global-config
-
-logging:
-  level:
-    root: INFO
-    com.ead: DEBUG
-
-  spring:
-    security:
-      user:
-        name: admin
-        password: admin
+    name: config-server
