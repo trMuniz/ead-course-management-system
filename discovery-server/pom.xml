@@ -4,7 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dev.thiagomuniz</groupId>
+    <parent>
+        <groupId>dev.thiagomuniz</groupId>
+        <artifactId>ead-course-management-system</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
     <artifactId>discovery-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 

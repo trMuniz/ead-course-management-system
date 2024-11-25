@@ -1,4 +1,4 @@
-package dev.thiagomuniz.configserver;
+package dev.thiagomuniz.discoveryserver.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
