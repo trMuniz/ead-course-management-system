@@ -9,3 +9,9 @@ logging:
   level:
     root: INFO
     com.ead: DEBUG
+
+  spring:
+    security:
+      user:
+        name: admin
+        password: admin
