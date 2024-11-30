@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: discovery-server
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
+  eureka:
+    server:
+      enable-self-preservation: false
+    client:
+      register-with-eureka: false
+      fetch-registry: false
+    instance:
+      prefer-ip-address: true
+
+server:
+  port: 8761
+
+logging:
+  level:
+    org.springframework.cloud.netflix.eureka: DEBUG

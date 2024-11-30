@@ -1,8 +1,7 @@
 spring:
-  application:
-    name: course-service
   cloud:
     config:
+      name: course-service
       uri: http://localhost:8888
       fail-fast: true
       retry:
