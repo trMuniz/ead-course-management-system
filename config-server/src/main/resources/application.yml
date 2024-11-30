@@ -9,10 +9,12 @@ logging:
     org.springframework.cloud: DEBUG
 
 spring:
+  application:
+    name: config-server
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/trMuniz/ead-course-management-system
+          uri: https://github.com/trMuniz/ead-course-management-system.git
           search-paths: config-repo
           default-label: development
